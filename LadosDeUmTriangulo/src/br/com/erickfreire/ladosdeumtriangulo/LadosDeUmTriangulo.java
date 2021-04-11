@@ -36,6 +36,26 @@ public class LadosDeUmTriangulo {
 				}
 			}
 		} 
+		
+		if(lado2 + lado1 > lado3) {
+			if(lado2 + lado3 > lado1) {
+				if(lado1 + lado3 > lado2) {
+					
+				}else {
+					System.out.println("Não é um triângulo");
+				}
+			}
+		} 
+		
+		if(lado3 + lado1 > lado2) {
+			if(lado3 + lado2 > lado1) {
+				if(lado1 + lado2 > lado3) {
+					
+				}else {
+					System.out.println("Não é um triângulo");
+				}
+			}
+		} 
 	
 		
 	
